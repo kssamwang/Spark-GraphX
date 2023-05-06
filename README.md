@@ -22,6 +22,7 @@ Spark is built using [Apache Maven](http://maven.apache.org/).
 To build Spark and its example programs, run:
 
     build/mvn -DskipTests clean package
+    build/mvn install
 
 (You do not need to do this if you downloaded a pre-built package.)
 
